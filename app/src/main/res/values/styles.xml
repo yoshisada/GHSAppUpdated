@@ -1,0 +1,110 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/MainLayout</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:fontFamily">@font/futurabook</item>
+        <item name="android:windowDisablePreview">true</item>
+    </style>
+    !red theme is done
+    <style name="red" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="backColor">@color/MainLayout</item>
+        <item name="buttonColor1">@color/button1</item>
+        <item name="buttonColor2">@color/button2</item>
+        <item name="buttonColor3">@color/button3</item>
+        <item name="buttonColor4">@color/button4</item>
+        <item name="buttonColor5">@color/button5</item>
+        <item name="buttonMain">@color/button1</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:fontFamily">@font/futurabook</item>
+        <item name="colorPrimary">@color/MainLayout</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textSize">30sp</item>
+        <item name="logo">@drawable/whitesmall2</item>
+        <item name="bar">@color/MainLayout</item>
+        <item name="padding">30dp</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="popupColorMain">@color/button1</item>
+        <item name="popupOutline">@color/button1</item>
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+    !black theme is done
+    <style name="black_oled" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="backColor">@color/black</item>
+        <item name="buttonColor1">@color/black</item>
+        <item name="buttonColor2">@color/black</item>
+        <item name="buttonColor3">@color/black</item>
+        <item name="buttonColor4">@color/black</item>
+        <item name="buttonColor5">@color/black</item>
+        <item name="buttonMain">@color/black</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:fontFamily">@font/futurabook</item>
+        <item name="colorPrimary">#FFFFFF</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textSize">30sp</item>
+        <item name="logo">@drawable/whitesmall2</item>
+        <item name="bar">@color/black</item>
+        <item name="padding">30dp</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="popupColorMain">@color/black</item>
+        <item name="popupOutline">@color/white</item>
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+    !add color/transparency here
+    <style name="space" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="backColor">@drawable/earthhome</item>
+        <item name="buttonColor1">@color/button1space</item>
+        <item name="buttonColor2">@color/button2space</item>
+        <item name="buttonColor3">@color/button3space</item>
+        <item name="buttonColor4">@color/button4space</item>
+        <item name="buttonColor5">@color/button5space</item>
+        <item name="buttonMain">@color/button2space</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:fontFamily">@font/futurabook</item>
+        <item name="colorPrimary">#FFFFFF</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/black</item>
+        <item name="android:textSize">30sp</item>
+        <item name="logo">@drawable/nasa</item>
+        <item name="bar">@color/button2space</item>
+        <item name="padding">30dp</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="popupColorMain">@color/black</item>
+        <item name="popupOutline">@color/black</item>
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+    <style name="forest" parent = "Theme.AppCompat.Light.NoActionBar">
+        <item name="backColor">@drawable/testwebtrees</item>
+        <item name="buttonColor1">@color/button1forest</item>
+        <item name="buttonColor2">@color/button2forest</item>
+        <item name="buttonColor3">@color/button3forest</item>
+        <item name="buttonColor4">@color/button4forest</item>
+        <item name="buttonColor5">@color/button5forest</item>
+        <item name="buttonMain">@color/button2forest</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:fontFamily">@font/futurabook</item>
+        <item name="colorPrimary">#FFFFFF</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textSize">30sp</item>
+        <item name="logo">@drawable/whitesmall2</item>
+        <item name="bar">@color/button2forest</item>
+        <item name="padding">30dp</item>
+        <item name="popupColorMain">@color/black</item>
+        <item name="popupOutline">@color/white</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

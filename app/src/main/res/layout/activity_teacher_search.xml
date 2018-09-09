@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TeacherSearch">
+
+    <LinearLayout
+        android:id="@+id/TeacherSearchLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.ghsapp.android.ghsapp.TeacherSearch"
+        android:background="?attr/backColor"
+        android:orientation="vertical"
+        android:weightSum="9"
+        android:statusBarColor="?attr/backColor">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="30sp"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/TeacherSearchHeader"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="?attr/buttonMain"
+                android:gravity="center"
+                android:text="Find My Teacher" />
+
+            <ImageButton
+                android:id="@+id/BackButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:backgroundTint="@android:color/transparent"
+                android:tint="@android:color/white"
+                app:srcCompat="?android:attr/actionModeCloseDrawable" />
+        </RelativeLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Need information for a teacher? Enter their name below!"
+            android:layout_margin="10dp"
+            android:textSize="25dp"
+            android:layout_weight="1"
+            />
+
+            <AutoCompleteTextView
+                android:id="@+id/autoCompleteTextView"
+                android:layout_width="match_parent"
+                android:layout_height= "60dp"
+                android:layout_margin="10dp"
+                android:hint="Teacher Lastname"
+                android:inputType="text"
+                android:popupBackground="@color/tw__composer_black"
+                android:textColor="#000"
+                android:textColorHint="@color/tw__composer_black"
+
+                />
+
+            <Button
+                android:id="@+id/GObutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="?attr/buttonMain"
+                android:text="Find My Teacher"
+                android:layout_margin="5dp"
+                android:layout_gravity="center"
+                android:textAllCaps="false"
+                />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_margin="5dp"
+            android:layout_weight=".05"
+            android:background="@android:color/white" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Don't know their name or room number? Click below for a directory"
+            android:layout_margin="10dp"
+            android:textSize="25dp"/>
+        <Button
+            android:id="@+id/Directory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginTop="0dp"
+            android:layout_weight="1"
+            android:backgroundTint="?attr/buttonMain"
+            android:text="Click Here!"
+            android:textAllCaps="false"
+            android:textSize="25dp"
+            android:layout_gravity="center"
+            />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

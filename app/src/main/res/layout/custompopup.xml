@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        android:background="@drawable/shapepop"
+        android:orientation="vertical"
+        android:weightSum="4.02"
+        android:gravity="center">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="4.02">
+
+                <TextView
+                    android:id="@+id/eNameFinal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Event Name:"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/eName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="Event Name"
+                    android:textColorLink="@color/tw__composer_white"
+                    android:textSize="25dp" />
+
+                <TextView
+                    android:id="@+id/eDateFinal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="Date:"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/eDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="Date"
+                    android:textSize="25dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="Description:"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/eDes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="Description"
+                    android:textSize="25dp" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/AwesomeButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:layout_gravity="bottom"
+                android:layout_margin="5dp"
+                android:backgroundTint="?attr/buttonColor4"
+                android:textAllCaps="false"
+                android:text="Awesome!" />
+
+
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

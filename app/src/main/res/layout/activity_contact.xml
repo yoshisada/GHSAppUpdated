@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ghsapp.android.ghsapp.Contact"
+    android:background="?attr/backColor"
+    android:orientation="vertical"
+    android:weightSum="9"
+    android:id="@+id/contactLayout"
+    android:statusBarColor="?attr/backColor">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/TeacherHeader"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="?attr/buttonMain"
+            android:text="Contact GHS"
+            android:gravity="center"/>
+        <ImageButton
+            android:id="@+id/BackButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:backgroundTint="@android:color/transparent"
+            android:tint="@android:color/white"
+            app:srcCompat="?android:attr/actionModeCloseDrawable"
+            android:onClick="onStartAction"/>
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="8"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="65dp"
+        android:layout_gravity="center">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:layout_weight="6.1"
+                android:gravity="center">
+
+
+                <TextView
+                    android:id="@+id/addressGoTo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_weight="1"
+                    android:textColorLink="@color/tw__composer_white"
+                    android:background="@null"
+                    android:text="@string/addressLink"
+                    android:textAllCaps="false"
+                    android:gravity="center"/>
+                <TextView
+                    android:id="@+id/callSchool"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="0dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="?attr/buttonMain"
+                    android:text="@string/callLink"
+                    android:layout_weight="1"
+                    android:layout_margin="10dp"
+                    android:gravity="center"
+                    android:textColorLink="@color/tw__composer_white"/>
+
+                <TextView
+                    android:id="@+id/faxSchool"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="?attr/buttonMain"
+                    android:gravity="center"
+                    android:text="Fax: (626) 963-2880"
+                    android:textColorLink="@color/tw__composer_white" />
+                <View
+                    android:layout_weight=".05"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_margin="5dp"
+                    android:background="@android:color/white"/>
+                <TextView
+                    android:id="@+id/webLink"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="0dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="?attr/buttonMain"
+                    android:text="@string/webLink"
+                    android:textSize="35dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:layout_margin="10dp"
+                    android:textColorLink="@color/tw__composer_white"/>
+                <View
+                    android:layout_weight=".05"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_margin="5dp"
+                    android:background="@android:color/white"/>
+                <TextView
+                    android:id="@+id/reportingText"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="0dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="?attr/buttonMain"
+                    android:text="Reporting an absence? \n \nPlease contact the school office at (626) 963-5731 \n extension 242. Click below for Policy."
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:autoLink="phone"
+                    android:textColorLink="@color/tw__composer_white"/>
+                <Button
+                    android:id="@+id/pdfTest"
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="?attr/buttonMain"
+                    android:text="Absence Policy"
+                    android:layout_weight="1"
+                    android:layout_margin="10dp"
+                    android:gravity="center"
+                    android:textAllCaps="false"
+                    android:layout_marginBottom="20dp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TeacherSearch">
+
+    <LinearLayout
+        android:id="@+id/TeacherSearchLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.ghsapp.android.ghsapp.AeriesWebView"
+        android:background="?attr/backColor"
+        android:orientation="vertical"
+        android:weightSum="10"
+        android:statusBarColor="?attr/backColor">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="30sp"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/TeacherSearchHeader"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="?attr/buttonMain"
+                android:gravity="center"
+                android:text="Teachers" />
+
+            <android.support.v7.widget.AppCompatImageButton
+                android:id="@+id/BackButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:backgroundTint="@android:color/transparent"
+                android:tint="@android:color/white"
+                android:src="?android:attr/actionModeCloseDrawable"
+                android:onClick="onStartAction"/>
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tName"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="If this is showiing an error"
+            android:textSize="25dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tEmail"
+            android:layout_marginLeft="10dp"
+            android:text="happened, please report to"
+            android:textSize="25dp"
+            android:autoLink="email"
+            android:textColorLink="@color/tw__composer_white"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tRoom"
+            android:layout_marginLeft="10dp"
+            android:textSize="25dp"
+            android:text="apps4ghs@gmail.com"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="25dp"
+            android:text="@string/about"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0sp"
+            android:layout_weight="8"
+            android:id="@+id/tDesc"
+            android:layout_margin="0dp"
+            android:textSize="25dp"
+            android:maxLines = "25"
+            android:scrollbars = "vertical"
+            android:padding="10dp"
+            />
+
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

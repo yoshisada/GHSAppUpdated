@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#000000</color>
+    <color name="OLED">#000000</color>
+    <color name="MainLayout">#d22e32</color>
+    <color name="MainStudent">#c42c33</color>
+    <color name="MainTeacher">#a52932</color>
+    <color name="MainCounselor">#932732</color>
+    <color name="MainContact">#812531</color>
+    <color name="MainOther">#6a2432</color>
+    <color name="StudentLayout">#D22E32</color>
+    <color name="StudentButtons">#c52C33</color>
+    <color name="black">#000000</color>
+    <color name="button1">#c52C33</color>
+    <color name="button2">#a52932</color>
+    <color name="button3">#932732</color>
+    <color name="button4">#812531</color>
+    <color name="button5">#6a2432</color>
+    <color name="button1space">#33000000</color>
+    <color name="button2space">#4D000000</color>
+    <color name="button3space">#66000000</color>
+    <color name="button4space">#80000000</color>
+    <color name="button5space">#99000000</color>
+    <color name="button1forest">#66000000</color>
+    <color name="button2forest">#99000000</color>
+    <color name="button3forest">#B3000000</color>
+    <color name="button4forest">#CC000000</color>
+    <color name="button5forest">#E6000000</color>
+    <color name="white">#fff</color>
+</resources>

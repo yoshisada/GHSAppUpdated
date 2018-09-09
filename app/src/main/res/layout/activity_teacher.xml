@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ghsapp.android.ghsapp.Teacher"
+    android:background="?attr/backColor"
+    android:orientation="vertical"
+    android:weightSum="9"
+    android:id="@+id/teacherLayout"
+    android:statusBarColor="?attr/buttonMain">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/TeacherHeader"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="?attr/buttonMain"
+            android:text="Teacher Resources"
+            android:gravity="center"/>
+        <ImageButton
+            android:id="@+id/BackButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:backgroundTint="@android:color/transparent"
+            android:tint="@android:color/white"
+            app:srcCompat="?android:attr/actionModeCloseDrawable"
+            android:onClick="onStartAction"/>
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="8"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="65dp"
+        android:layout_gravity="center">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="900sp"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:layout_weight="8">
+
+                <Button
+                    android:id="@+id/AeriesButton2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="?attr/buttonMain"
+                    android:text="Aeries" />
+                <Button
+                    android:id="@+id/AesopButton2"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="0dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="?attr/buttonMain"
+                    android:text="AESOP"
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"/>
+                <Button
+                    android:id="@+id/ScheduleButton2"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="0dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="?attr/buttonMain"
+                    android:text="Schedule"
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"/>
+
+                <Button
+                    android:id="@+id/CalendarButton2"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="0dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="?attr/buttonMain"
+                    android:text="Calendar"
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"/>
+
+                <Button
+                    android:id="@+id/MapButton2"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="0dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="?attr/buttonMain"
+                    android:text="Map"
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"/>
+                <Button
+                    android:id="@+id/DistrictSiteButton2"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="0dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="?attr/buttonMain"
+                    android:text="District Site"
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"/>
+                <Button
+                    android:id="@+id/TartanDailyButton2"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="0dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="?attr/buttonMain"
+                    android:text="Tartan Daily"
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"/>
+                <Button
+                    android:id="@+id/AnnouncementRequestButton2"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="0dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="?attr/buttonMain"
+                    android:text="Announcement Request"
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+

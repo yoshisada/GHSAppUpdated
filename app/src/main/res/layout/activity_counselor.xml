@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ghsapp.android.ghsapp.Calender"
+    android:background="?attr/backColor"
+    android:orientation="vertical"
+    android:weightSum="9"
+    android:id="@+id/teacherLayout"
+    android:statusBarColor="?attr/backColor">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/TeacherHeader"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="?attr/buttonMain"
+            android:text="Tartan Events"
+            android:gravity="center"/>
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@+id/BackButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:backgroundTint="@android:color/transparent"
+            android:tint="@android:color/white"
+            android:src="?android:attr/actionModeCloseDrawable"
+            android:onClick="onStartAction"/>
+    </RelativeLayout>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:id="@android:id/list">
+
+    </ListView>
+
+
+</LinearLayout>
+

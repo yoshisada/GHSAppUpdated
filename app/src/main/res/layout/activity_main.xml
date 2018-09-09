@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/currentLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.ghsapp.android.ghsapp.MainActivity"
+    android:background="?attr/backColor"
+    >
+
+    <ImageButton
+        android:id="@+id/ghs"
+        android:layout_width="match_parent"
+        android:layout_height="160sp"
+        app:srcCompat="?attr/logo"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"
+        android:layout_weight="3"
+        android:scaleType="centerInside"
+        android:padding="?attr/padding"
+        android:backgroundTint="@android:color/transparent"
+        android:tint="@android:color/transparent"
+        android:onClick="onStartAction"
+        android:clickable="true"/>
+
+
+    <Button
+        android:id="@+id/StudentsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Students"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="451dp"
+        app:layout_constraintBottom_toTopOf="@+id/TeacherButton"
+        android:background="@drawable/shape"
+        android:backgroundTint="?attr/buttonColor1"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/TeacherButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/shape"
+        android:backgroundTint="?attr/buttonColor2"
+        android:text="Teacher"
+        app:layout_constraintBottom_toTopOf="@+id/CounselorButton"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="598dp" />
+
+    <Button
+        android:id="@+id/TartanEvents"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tartan Events"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="519dp"
+        app:layout_constraintBottom_toTopOf="@+id/ContactButton"
+        android:background="@drawable/shape"
+        android:backgroundTint="?attr/buttonColor3"
+        android:layout_weight="1" />
+    <Button
+        android:id="@+id/ContactButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact GHS"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="201dp"
+        app:layout_constraintBottom_toTopOf="@+id/OtherButton"
+        android:background="@drawable/shape"
+        android:backgroundTint="?attr/buttonColor4"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/OtherButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About Us"
+        tools:layout_editor_absoluteX="168dp"
+        tools:layout_editor_absoluteY="283dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:background="@drawable/shape"
+        android:backgroundTint="?attr/buttonColor5"
+        android:layout_weight="1" />
+
+
+</LinearLayout>

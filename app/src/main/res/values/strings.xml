@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">GHS App</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name = "addressLink">
+        <a href = "https://maps.google.com/?daddr=1600+East+Foothill+Blvd+Glendora+California">1600 E. Foothill Blvd, Glendora, CA, 91741</a>
+    </string>
+    <string name = "callLink">
+        <a href = "tel:6269635731">Call: (626) 963-5731</a>
+    </string>
+    <string name = "webLink">
+        <a href = "http://www.glendorahigh.net/">GHS Website</a>
+    </string>
+    <string name = "plogo">30dp</string>
+    <string name = "pspace">70dp</string>
+    <string name="about"><u>About</u></string>
+</resources>

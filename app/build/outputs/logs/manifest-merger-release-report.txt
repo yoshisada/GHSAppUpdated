@@ -1,0 +1,445 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:2:1-63:12
+INJECTED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:2:1-63:12
+INJECTED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:2:1-63:12
+INJECTED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:2:1-63:12
+MERGED from [com.android.support:design:26.1.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\76e6643c78a098e6c723cd6a33ad4f57\AndroidManifest.xml:17:1-31:12
+MERGED from [com.airbnb.android:lottie:2.1.2] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\lottie-2.1.2.aar\ebf0cbf1e6f274482de511ef5fafe027\AndroidManifest.xml:2:1-12:12
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\8fed874dd25b2218499db9408e82b5c8\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\834703286fd573f93425fc5cfcf635eb\AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.chrisbanes:PhotoView:2.1.3] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\PhotoView-2.1.3.aar\191e3e773b45c8160630e339f84e1052\AndroidManifest.xml:2:1-12:12
+MERGED from [com.twitter.sdk.android:twitter:3.1.1] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\twitter-3.1.1.aar\bb44d322554161ee36771c3989c77c9b\AndroidManifest.xml:18:1-27:12
+MERGED from [com.twitter.sdk.android:tweet-ui:3.1.1] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\tweet-ui-3.1.1.aar\cba7f4de78963d80dff7111c2d5256b7\AndroidManifest.xml:18:1-37:12
+MERGED from [com.github.barteksc:android-pdf-viewer:2.3.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\android-pdf-viewer-2.3.0.aar\a2aeb050e264d45c57aba80fa41c1387\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\volley-1.1.1.aar\05483e3bbcdba790411fe3bcf2a1ad23\AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.tbouron.shakedetector:library:1.0.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\library-1.0.0.aar\ef4c6ab8458587099dfa9f1b7166ebea\AndroidManifest.xml:15:97-20:12
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\83bf1e61f2115e2a57b804277d8f2bc8\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\897090b1cc647915ad305cde19ca35c4\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\ae06e02e2ea78558b63e594296b32fde\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:transition:26.1.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\db94fb2e465c5342c5282d7b5e497d38\AndroidManifest.xml:17:1-28:12
+MERGED from [com.github.barteksc:pdfium-android:1.5.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\pdfium-android-1.5.0.aar\dd92ebf2105051b290086114cc3d93dc\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\24874fc862f2f2b9b0297bbac9212685\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\06d4b5c39f37e1d1c03a57936387f8ba\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\12a98cbbd4bb862b5ad6df87078cf35e\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\2926a55addf3296be18c7704ff5b0239\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\1a6feb36c251768b0019201b8a5a3341\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\1aba5cd13b6845a72993f704cefaaa79\AndroidManifest.xml:17:1-31:12
+MERGED from [com.twitter.sdk.android:tweet-composer:3.1.1] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\tweet-composer-3.1.1.aar\83fc2383f02a5783cf40b6dca359a478\AndroidManifest.xml:18:1-39:12
+MERGED from [com.twitter.sdk.android:twitter-core:3.1.1] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\twitter-core-3.1.1.aar\af80ded60feaba0d4925e63157156fe3\AndroidManifest.xml:18:1-35:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\36b594c6ae9586beccfcc59709533e38\AndroidManifest.xml:17:1-30:12
+INJECTED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:2:1-63:12
+INJECTED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:2:1-63:12
+INJECTED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:2:1-63:12
+	package
+		ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:3:5-40
+		INJECTED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml
+		ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:2:1-63:12
+		INJECTED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml
+		ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:2:1-63:12
+		INJECTED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:5:5-67
+MERGED from [com.twitter.sdk.android:tweet-ui:3.1.1] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\tweet-ui-3.1.1.aar\cba7f4de78963d80dff7111c2d5256b7\AndroidManifest.xml:25:5-67
+MERGED from [com.twitter.sdk.android:tweet-ui:3.1.1] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\tweet-ui-3.1.1.aar\cba7f4de78963d80dff7111c2d5256b7\AndroidManifest.xml:25:5-67
+MERGED from [com.twitter.sdk.android:tweet-composer:3.1.1] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\tweet-composer-3.1.1.aar\83fc2383f02a5783cf40b6dca359a478\AndroidManifest.xml:25:5-67
+MERGED from [com.twitter.sdk.android:tweet-composer:3.1.1] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\tweet-composer-3.1.1.aar\83fc2383f02a5783cf40b6dca359a478\AndroidManifest.xml:25:5-67
+MERGED from [com.twitter.sdk.android:twitter-core:3.1.1] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\twitter-core-3.1.1.aar\af80ded60feaba0d4925e63157156fe3\AndroidManifest.xml:25:5-67
+MERGED from [com.twitter.sdk.android:twitter-core:3.1.1] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\twitter-core-3.1.1.aar\af80ded60feaba0d4925e63157156fe3\AndroidManifest.xml:25:5-67
+	android:name
+		ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:6:22-77
+application
+ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:8:5-61:19
+MERGED from [com.android.support:design:26.1.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\76e6643c78a098e6c723cd6a33ad4f57\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:design:26.1.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\76e6643c78a098e6c723cd6a33ad4f57\AndroidManifest.xml:25:5-29:19
+MERGED from [com.airbnb.android:lottie:2.1.2] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\lottie-2.1.2.aar\ebf0cbf1e6f274482de511ef5fafe027\AndroidManifest.xml:10:5-20
+MERGED from [com.airbnb.android:lottie:2.1.2] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\lottie-2.1.2.aar\ebf0cbf1e6f274482de511ef5fafe027\AndroidManifest.xml:10:5-20
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\8fed874dd25b2218499db9408e82b5c8\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\8fed874dd25b2218499db9408e82b5c8\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\834703286fd573f93425fc5cfcf635eb\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\834703286fd573f93425fc5cfcf635eb\AndroidManifest.xml:9:5-20
+MERGED from [com.twitter.sdk.android:twitter:3.1.1] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\twitter-3.1.1.aar\bb44d322554161ee36771c3989c77c9b\AndroidManifest.xml:25:5-20
+MERGED from [com.twitter.sdk.android:twitter:3.1.1] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\twitter-3.1.1.aar\bb44d322554161ee36771c3989c77c9b\AndroidManifest.xml:25:5-20
+MERGED from [com.twitter.sdk.android:tweet-ui:3.1.1] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\tweet-ui-3.1.1.aar\cba7f4de78963d80dff7111c2d5256b7\AndroidManifest.xml:27:5-35:19
+MERGED from [com.twitter.sdk.android:tweet-ui:3.1.1] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\tweet-ui-3.1.1.aar\cba7f4de78963d80dff7111c2d5256b7\AndroidManifest.xml:27:5-35:19
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\volley-1.1.1.aar\05483e3bbcdba790411fe3bcf2a1ad23\AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\volley-1.1.1.aar\05483e3bbcdba790411fe3bcf2a1ad23\AndroidManifest.xml:9:5-20
+MERGED from [com.github.tbouron.shakedetector:library:1.0.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\library-1.0.0.aar\ef4c6ab8458587099dfa9f1b7166ebea\AndroidManifest.xml:18:5-19
+MERGED from [com.github.tbouron.shakedetector:library:1.0.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\library-1.0.0.aar\ef4c6ab8458587099dfa9f1b7166ebea\AndroidManifest.xml:18:5-19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\83bf1e61f2115e2a57b804277d8f2bc8\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\83bf1e61f2115e2a57b804277d8f2bc8\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\897090b1cc647915ad305cde19ca35c4\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\897090b1cc647915ad305cde19ca35c4\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\ae06e02e2ea78558b63e594296b32fde\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\ae06e02e2ea78558b63e594296b32fde\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\db94fb2e465c5342c5282d7b5e497d38\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\db94fb2e465c5342c5282d7b5e497d38\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\24874fc862f2f2b9b0297bbac9212685\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\24874fc862f2f2b9b0297bbac9212685\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\06d4b5c39f37e1d1c03a57936387f8ba\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\06d4b5c39f37e1d1c03a57936387f8ba\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\12a98cbbd4bb862b5ad6df87078cf35e\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\12a98cbbd4bb862b5ad6df87078cf35e\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\2926a55addf3296be18c7704ff5b0239\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\2926a55addf3296be18c7704ff5b0239\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\1a6feb36c251768b0019201b8a5a3341\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\1a6feb36c251768b0019201b8a5a3341\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\1aba5cd13b6845a72993f704cefaaa79\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\1aba5cd13b6845a72993f704cefaaa79\AndroidManifest.xml:25:5-29:19
+MERGED from [com.twitter.sdk.android:tweet-composer:3.1.1] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\tweet-composer-3.1.1.aar\83fc2383f02a5783cf40b6dca359a478\AndroidManifest.xml:27:5-37:19
+MERGED from [com.twitter.sdk.android:tweet-composer:3.1.1] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\tweet-composer-3.1.1.aar\83fc2383f02a5783cf40b6dca359a478\AndroidManifest.xml:27:5-37:19
+MERGED from [com.twitter.sdk.android:twitter-core:3.1.1] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\twitter-core-3.1.1.aar\af80ded60feaba0d4925e63157156fe3\AndroidManifest.xml:27:5-33:19
+MERGED from [com.twitter.sdk.android:twitter-core:3.1.1] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\twitter-core-3.1.1.aar\af80ded60feaba0d4925e63157156fe3\AndroidManifest.xml:27:5-33:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\36b594c6ae9586beccfcc59709533e38\AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\36b594c6ae9586beccfcc59709533e38\AndroidManifest.xml:24:5-28:19
+	android:supportsRtl
+		ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:14:9-35
+	android:label
+		ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:12:9-41
+	android:hardwareAccelerated
+		ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:15:9-44
+	android:roundIcon
+		ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:13:9-54
+	android:largeHeap
+		ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:16:9-33
+	android:icon
+		ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:11:9-49
+	android:allowBackup
+		ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:10:9-35
+	android:theme
+		ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:17:9-35
+	android:name
+		ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:9:9-31
+activity#com.ghsapp.android.ghsapp.AnimationView
+ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:18:9-25:20
+	android:screenOrientation
+		ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:19:13-49
+	android:name
+		ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:18:19-48
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:20:13-24:29
+action#android.intent.action.MAIN
+ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:21:17-69
+	android:name
+		ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:21:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:23:17-77
+	android:name
+		ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:23:27-74
+activity#com.ghsapp.android.ghsapp.AnimationView2
+ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:26:9-28:20
+	android:screenOrientation
+		ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:27:13-49
+	android:name
+		ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:26:19-49
+activity#com.ghsapp.android.ghsapp.MainActivity
+ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:29:9-30:52
+	android:screenOrientation
+		ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:30:13-49
+	android:name
+		ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:29:19-47
+activity#com.ghsapp.android.ghsapp.Student
+ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:31:9-32:51
+	android:screenOrientation
+		ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:32:13-49
+	android:name
+		ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:31:19-42
+activity#com.ghsapp.android.ghsapp.Teacher
+ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:33:9-34:51
+	android:screenOrientation
+		ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:34:13-49
+	android:name
+		ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:33:19-42
+activity#com.ghsapp.android.ghsapp.Contact
+ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:35:9-36:51
+	android:screenOrientation
+		ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:36:13-49
+	android:name
+		ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:35:19-42
+activity#com.ghsapp.android.ghsapp.other
+ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:37:9-38:51
+	android:screenOrientation
+		ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:38:13-49
+	android:name
+		ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:37:19-40
+activity#com.ghsapp.android.ghsapp.AeriesWebView
+ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:39:9-87
+	android:screenOrientation
+		ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:39:49-85
+	android:name
+		ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:39:19-48
+activity#com.ghsapp.android.ghsapp.NavianceWebView
+ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:40:9-89
+	android:screenOrientation
+		ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:40:51-87
+	android:name
+		ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:40:19-50
+activity#com.ghsapp.android.ghsapp.AthleticsWebView
+ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:41:9-90
+	android:screenOrientation
+		ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:41:52-88
+	android:name
+		ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:41:19-51
+activity#com.ghsapp.android.ghsapp.AnnouncementRequestWebView
+ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:42:9-100
+	android:screenOrientation
+		ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:42:62-98
+	android:name
+		ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:42:19-61
+activity#com.ghsapp.android.ghsapp.CollegeBoardWebView
+ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:43:9-93
+	android:screenOrientation
+		ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:43:55-91
+	android:name
+		ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:43:19-54
+activity#com.ghsapp.android.ghsapp.TutorcomWebView
+ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:44:9-89
+	android:screenOrientation
+		ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:44:51-87
+	android:name
+		ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:44:19-50
+activity#com.ghsapp.android.ghsapp.StudentStoreWebView
+ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:45:9-93
+	android:screenOrientation
+		ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:45:55-91
+	android:name
+		ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:45:19-54
+activity#com.ghsapp.android.ghsapp.TwitterAnnouncements
+ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:46:9-94
+	android:screenOrientation
+		ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:46:56-92
+	android:name
+		ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:46:19-55
+activity#com.ghsapp.android.ghsapp.MapImageView
+ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:47:9-86
+	android:screenOrientation
+		ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:47:48-84
+	android:name
+		ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:47:19-47
+activity#com.ghsapp.android.ghsapp.CalendarImageView
+ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:48:9-91
+	android:screenOrientation
+		ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:48:53-89
+	android:name
+		ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:48:19-52
+activity#com.ghsapp.android.ghsapp.ScheduleImageView
+ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:49:9-91
+	android:screenOrientation
+		ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:49:53-89
+	android:name
+		ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:49:19-52
+activity#com.ghsapp.android.ghsapp.TeacherAeriesWebView
+ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:50:9-94
+	android:screenOrientation
+		ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:50:56-92
+	android:name
+		ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:50:19-55
+activity#com.ghsapp.android.ghsapp.TeacherAesopWebView
+ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:51:9-93
+	android:screenOrientation
+		ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:51:55-91
+	android:name
+		ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:51:19-54
+activity#com.ghsapp.android.ghsapp.TeacherDistrictSiteWebView
+ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:52:9-100
+	android:screenOrientation
+		ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:52:62-98
+	android:name
+		ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:52:19-61
+activity#com.ghsapp.android.ghsapp.TartanDailyView
+ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:53:9-89
+	android:screenOrientation
+		ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:53:51-87
+	android:name
+		ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:53:19-50
+activity#com.ghsapp.android.ghsapp.SocialMedia
+ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:54:9-85
+	android:screenOrientation
+		ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:54:47-83
+	android:name
+		ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:54:19-46
+activity#com.ghsapp.android.ghsapp.ClassroomWebView
+ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:55:9-90
+	android:screenOrientation
+		ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:55:52-88
+	android:name
+		ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:55:19-51
+activity#com.ghsapp.android.ghsapp.TeacherSearch
+ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:56:9-87
+	android:screenOrientation
+		ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:56:49-85
+	android:name
+		ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:56:19-48
+activity#com.ghsapp.android.ghsapp.pdfView
+ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:57:9-81
+	android:screenOrientation
+		ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:57:43-79
+	android:name
+		ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:57:19-42
+activity#com.ghsapp.android.ghsapp.TeacherDetails
+ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:58:9-88
+	android:screenOrientation
+		ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:58:50-86
+	android:name
+		ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:58:19-49
+activity#com.ghsapp.android.ghsapp.Directory
+ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:59:9-83
+	android:screenOrientation
+		ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:59:45-81
+	android:name
+		ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:59:19-44
+activity#com.ghsapp.android.ghsapp.Calender
+ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:60:9-82
+	android:screenOrientation
+		ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:60:44-80
+	android:name
+		ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml:60:19-43
+uses-sdk
+INJECTED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml
+INJECTED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:26.1.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\76e6643c78a098e6c723cd6a33ad4f57\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:26.1.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\76e6643c78a098e6c723cd6a33ad4f57\AndroidManifest.xml:21:5-23:62
+MERGED from [com.airbnb.android:lottie:2.1.2] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\lottie-2.1.2.aar\ebf0cbf1e6f274482de511ef5fafe027\AndroidManifest.xml:6:5-8:41
+MERGED from [com.airbnb.android:lottie:2.1.2] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\lottie-2.1.2.aar\ebf0cbf1e6f274482de511ef5fafe027\AndroidManifest.xml:6:5-8:41
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\8fed874dd25b2218499db9408e82b5c8\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\8fed874dd25b2218499db9408e82b5c8\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\834703286fd573f93425fc5cfcf635eb\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\834703286fd573f93425fc5cfcf635eb\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.chrisbanes:PhotoView:2.1.3] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\PhotoView-2.1.3.aar\191e3e773b45c8160630e339f84e1052\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.chrisbanes:PhotoView:2.1.3] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\PhotoView-2.1.3.aar\191e3e773b45c8160630e339f84e1052\AndroidManifest.xml:8:5-10:41
+MERGED from [com.twitter.sdk.android:twitter:3.1.1] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\twitter-3.1.1.aar\bb44d322554161ee36771c3989c77c9b\AndroidManifest.xml:23:5-44
+MERGED from [com.twitter.sdk.android:twitter:3.1.1] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\twitter-3.1.1.aar\bb44d322554161ee36771c3989c77c9b\AndroidManifest.xml:23:5-44
+MERGED from [com.twitter.sdk.android:tweet-ui:3.1.1] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\tweet-ui-3.1.1.aar\cba7f4de78963d80dff7111c2d5256b7\AndroidManifest.xml:23:5-44
+MERGED from [com.twitter.sdk.android:tweet-ui:3.1.1] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\tweet-ui-3.1.1.aar\cba7f4de78963d80dff7111c2d5256b7\AndroidManifest.xml:23:5-44
+MERGED from [com.github.barteksc:android-pdf-viewer:2.3.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\android-pdf-viewer-2.3.0.aar\a2aeb050e264d45c57aba80fa41c1387\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.barteksc:android-pdf-viewer:2.3.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\android-pdf-viewer-2.3.0.aar\a2aeb050e264d45c57aba80fa41c1387\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\volley-1.1.1.aar\05483e3bbcdba790411fe3bcf2a1ad23\AndroidManifest.xml:7:5-43
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\volley-1.1.1.aar\05483e3bbcdba790411fe3bcf2a1ad23\AndroidManifest.xml:7:5-43
+MERGED from [com.github.tbouron.shakedetector:library:1.0.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\library-1.0.0.aar\ef4c6ab8458587099dfa9f1b7166ebea\AndroidManifest.xml:16:5-72
+MERGED from [com.github.tbouron.shakedetector:library:1.0.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\library-1.0.0.aar\ef4c6ab8458587099dfa9f1b7166ebea\AndroidManifest.xml:16:5-72
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\83bf1e61f2115e2a57b804277d8f2bc8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\83bf1e61f2115e2a57b804277d8f2bc8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\897090b1cc647915ad305cde19ca35c4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\897090b1cc647915ad305cde19ca35c4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\ae06e02e2ea78558b63e594296b32fde\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\ae06e02e2ea78558b63e594296b32fde\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\db94fb2e465c5342c5282d7b5e497d38\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\db94fb2e465c5342c5282d7b5e497d38\AndroidManifest.xml:20:5-44
+MERGED from [com.github.barteksc:pdfium-android:1.5.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\pdfium-android-1.5.0.aar\dd92ebf2105051b290086114cc3d93dc\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.barteksc:pdfium-android:1.5.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\pdfium-android-1.5.0.aar\dd92ebf2105051b290086114cc3d93dc\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\24874fc862f2f2b9b0297bbac9212685\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\24874fc862f2f2b9b0297bbac9212685\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\06d4b5c39f37e1d1c03a57936387f8ba\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\06d4b5c39f37e1d1c03a57936387f8ba\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\12a98cbbd4bb862b5ad6df87078cf35e\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\12a98cbbd4bb862b5ad6df87078cf35e\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\2926a55addf3296be18c7704ff5b0239\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\2926a55addf3296be18c7704ff5b0239\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\1a6feb36c251768b0019201b8a5a3341\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\1a6feb36c251768b0019201b8a5a3341\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\1aba5cd13b6845a72993f704cefaaa79\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\1aba5cd13b6845a72993f704cefaaa79\AndroidManifest.xml:21:5-23:58
+MERGED from [com.twitter.sdk.android:tweet-composer:3.1.1] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\tweet-composer-3.1.1.aar\83fc2383f02a5783cf40b6dca359a478\AndroidManifest.xml:23:5-44
+MERGED from [com.twitter.sdk.android:tweet-composer:3.1.1] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\tweet-composer-3.1.1.aar\83fc2383f02a5783cf40b6dca359a478\AndroidManifest.xml:23:5-44
+MERGED from [com.twitter.sdk.android:twitter-core:3.1.1] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\twitter-core-3.1.1.aar\af80ded60feaba0d4925e63157156fe3\AndroidManifest.xml:23:5-44
+MERGED from [com.twitter.sdk.android:twitter-core:3.1.1] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\twitter-core-3.1.1.aar\af80ded60feaba0d4925e63157156fe3\AndroidManifest.xml:23:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\36b594c6ae9586beccfcc59709533e38\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\36b594c6ae9586beccfcc59709533e38\AndroidManifest.xml:20:5-22:41
+INJECTED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml
+INJECTED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:26.1.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\76e6643c78a098e6c723cd6a33ad4f57\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml
+		ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml
+		ADDED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Android Apps\GHS for apk\GHSAppUpdated\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:26.1.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\76e6643c78a098e6c723cd6a33ad4f57\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\8fed874dd25b2218499db9408e82b5c8\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\8fed874dd25b2218499db9408e82b5c8\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\83bf1e61f2115e2a57b804277d8f2bc8\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\83bf1e61f2115e2a57b804277d8f2bc8\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\897090b1cc647915ad305cde19ca35c4\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\897090b1cc647915ad305cde19ca35c4\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\ae06e02e2ea78558b63e594296b32fde\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\ae06e02e2ea78558b63e594296b32fde\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\db94fb2e465c5342c5282d7b5e497d38\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\db94fb2e465c5342c5282d7b5e497d38\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\24874fc862f2f2b9b0297bbac9212685\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\24874fc862f2f2b9b0297bbac9212685\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\06d4b5c39f37e1d1c03a57936387f8ba\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\06d4b5c39f37e1d1c03a57936387f8ba\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\12a98cbbd4bb862b5ad6df87078cf35e\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\12a98cbbd4bb862b5ad6df87078cf35e\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\2926a55addf3296be18c7704ff5b0239\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\2926a55addf3296be18c7704ff5b0239\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\1a6feb36c251768b0019201b8a5a3341\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\1a6feb36c251768b0019201b8a5a3341\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\1aba5cd13b6845a72993f704cefaaa79\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\1aba5cd13b6845a72993f704cefaaa79\AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:design:26.1.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\76e6643c78a098e6c723cd6a33ad4f57\AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:design:26.1.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\76e6643c78a098e6c723cd6a33ad4f57\AndroidManifest.xml:27:13-51
+activity#com.twitter.sdk.android.tweetui.PlayerActivity
+ADDED from [com.twitter.sdk.android:tweet-ui:3.1.1] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\tweet-ui-3.1.1.aar\cba7f4de78963d80dff7111c2d5256b7\AndroidManifest.xml:28:9-31:49
+	android:configChanges
+		ADDED from [com.twitter.sdk.android:tweet-ui:3.1.1] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\tweet-ui-3.1.1.aar\cba7f4de78963d80dff7111c2d5256b7\AndroidManifest.xml:30:13-74
+	android:theme
+		ADDED from [com.twitter.sdk.android:tweet-ui:3.1.1] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\tweet-ui-3.1.1.aar\cba7f4de78963d80dff7111c2d5256b7\AndroidManifest.xml:31:13-46
+	android:name
+		ADDED from [com.twitter.sdk.android:tweet-ui:3.1.1] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\tweet-ui-3.1.1.aar\cba7f4de78963d80dff7111c2d5256b7\AndroidManifest.xml:29:13-74
+activity#com.twitter.sdk.android.tweetui.GalleryActivity
+ADDED from [com.twitter.sdk.android:tweet-ui:3.1.1] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\tweet-ui-3.1.1.aar\cba7f4de78963d80dff7111c2d5256b7\AndroidManifest.xml:32:9-34:49
+	android:theme
+		ADDED from [com.twitter.sdk.android:tweet-ui:3.1.1] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\tweet-ui-3.1.1.aar\cba7f4de78963d80dff7111c2d5256b7\AndroidManifest.xml:34:13-46
+	android:name
+		ADDED from [com.twitter.sdk.android:tweet-ui:3.1.1] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\tweet-ui-3.1.1.aar\cba7f4de78963d80dff7111c2d5256b7\AndroidManifest.xml:33:13-75
+activity#com.twitter.sdk.android.tweetcomposer.ComposerActivity
+ADDED from [com.twitter.sdk.android:tweet-composer:3.1.1] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\tweet-composer-3.1.1.aar\83fc2383f02a5783cf40b6dca359a478\AndroidManifest.xml:28:9-31:71
+	android:windowSoftInputMode
+		ADDED from [com.twitter.sdk.android:tweet-composer:3.1.1] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\tweet-composer-3.1.1.aar\83fc2383f02a5783cf40b6dca359a478\AndroidManifest.xml:31:13-68
+	android:exported
+		ADDED from [com.twitter.sdk.android:tweet-composer:3.1.1] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\tweet-composer-3.1.1.aar\83fc2383f02a5783cf40b6dca359a478\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [com.twitter.sdk.android:tweet-composer:3.1.1] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\tweet-composer-3.1.1.aar\83fc2383f02a5783cf40b6dca359a478\AndroidManifest.xml:29:13-82
+service#com.twitter.sdk.android.tweetcomposer.TweetUploadService
+ADDED from [com.twitter.sdk.android:tweet-composer:3.1.1] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\tweet-composer-3.1.1.aar\83fc2383f02a5783cf40b6dca359a478\AndroidManifest.xml:33:9-36:40
+	android:enabled
+		ADDED from [com.twitter.sdk.android:tweet-composer:3.1.1] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\tweet-composer-3.1.1.aar\83fc2383f02a5783cf40b6dca359a478\AndroidManifest.xml:35:13-35
+	android:exported
+		ADDED from [com.twitter.sdk.android:tweet-composer:3.1.1] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\tweet-composer-3.1.1.aar\83fc2383f02a5783cf40b6dca359a478\AndroidManifest.xml:36:13-37
+	android:name
+		ADDED from [com.twitter.sdk.android:tweet-composer:3.1.1] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\tweet-composer-3.1.1.aar\83fc2383f02a5783cf40b6dca359a478\AndroidManifest.xml:34:13-84
+activity#com.twitter.sdk.android.core.identity.OAuthActivity
+ADDED from [com.twitter.sdk.android:twitter-core:3.1.1] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\twitter-core-3.1.1.aar\af80ded60feaba0d4925e63157156fe3\AndroidManifest.xml:28:9-32:40
+	android:excludeFromRecents
+		ADDED from [com.twitter.sdk.android:twitter-core:3.1.1] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\twitter-core-3.1.1.aar\af80ded60feaba0d4925e63157156fe3\AndroidManifest.xml:31:13-46
+	android:exported
+		ADDED from [com.twitter.sdk.android:twitter-core:3.1.1] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\twitter-core-3.1.1.aar\af80ded60feaba0d4925e63157156fe3\AndroidManifest.xml:32:13-37
+	android:configChanges
+		ADDED from [com.twitter.sdk.android:twitter-core:3.1.1] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\twitter-core-3.1.1.aar\af80ded60feaba0d4925e63157156fe3\AndroidManifest.xml:30:13-59
+	android:name
+		ADDED from [com.twitter.sdk.android:twitter-core:3.1.1] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\twitter-core-3.1.1.aar\af80ded60feaba0d4925e63157156fe3\AndroidManifest.xml:29:13-79
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\36b594c6ae9586beccfcc59709533e38\AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\36b594c6ae9586beccfcc59709533e38\AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\yoshisada\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\36b594c6ae9586beccfcc59709533e38\AndroidManifest.xml:26:13-58

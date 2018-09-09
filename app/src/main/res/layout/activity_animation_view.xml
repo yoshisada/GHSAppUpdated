@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <LinearLayout
+        android:id="@+id/AnimationLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.ghsapp.android.ghsapp.Student"
+        android:background="?attr/backColor"
+        android:orientation="vertical"
+        android:weightSum="9"
+        android:statusBarColor="?attr/backColor">
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animation_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerInside"
+        app:lottie_scale="0.1"
+        app:lottie_imageAssetsFolder="assets"
+        app:lottie_fileName="waves.json"
+        app:lottie_loop="false"
+        app:lottie_autoPlay="true" />
+    </LinearLayout>
+</RelativeLayout>

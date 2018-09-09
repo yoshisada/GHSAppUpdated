@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/studentLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context="com.ghsapp.android.ghsapp.Student"
+            android:background="?attr/backColor"
+            android:orientation="vertical"
+            android:weightSum="9"
+            android:statusBarColor="?attr/backColor">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0sp"
+                android:layout_weight="1"
+                android:background="@android:color/transparent">
+
+                <TextView
+                    android:id="@+id/studentHeader"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="?attr/buttonMain"
+                    android:text="Student Resources"
+                    android:gravity="center"/>
+                <ImageButton
+                    android:id="@+id/BackButton1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="@android:color/transparent"
+                    android:tint="@android:color/white"
+                    app:srcCompat="?android:attr/actionModeCloseDrawable"
+                    android:onClick="onStartAction"/>
+            </RelativeLayout>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="0sp"
+                android:layout_gravity="center"
+                android:layout_weight="8"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="65dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="1500sp"
+                        android:layout_gravity="center"
+                        android:layout_weight="9"
+                        android:orientation="vertical">
+                        <Button
+                            android:id="@+id/AeriesButton"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_weight="1"
+                            android:backgroundTint="?attr/buttonMain"
+                            android:text="Aeries" />
+                        <Button
+                            android:id="@+id/CalendarButton"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_weight="1"
+                            android:backgroundTint="?attr/buttonMain"
+                            android:text="Calendar" />
+                        <Button
+                            android:id="@+id/ScheduleButton"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_weight="1"
+                            android:backgroundTint="?attr/buttonMain"
+                            android:text="Schedule" />
+                        <Button
+                            android:id="@+id/MapButton"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_weight="1"
+                            android:backgroundTint="?attr/buttonMain"
+                            android:text="Map" />
+
+                        <Button
+                            android:id="@+id/TeacherSearch"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_weight="1"
+                            android:backgroundTint="?attr/buttonMain"
+                            android:text="Find My Teacher" />
+                        <Button
+                            android:id="@+id/SocialMedia"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_weight="1"
+                            android:backgroundTint="?attr/buttonMain"
+                            android:text="Social Media" />
+                        <Button
+                            android:id="@+id/AnnouncementRequest"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_weight="1"
+                            android:backgroundTint="?attr/buttonMain"
+                            android:text="Announcement Request" />
+
+
+
+
+
+
+                        <Button
+                            android:id="@+id/ClassroomButton"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_weight="1"
+                            android:backgroundTint="?attr/buttonMain"
+                            android:text="Classroom" />
+                        <Button
+                            android:id="@+id/NavianceButton"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_weight="1"
+                            android:backgroundTint="?attr/buttonMain"
+                            android:text="Naviance" />
+
+                        <Button
+                            android:id="@+id/AthleticsButton"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_weight="1"
+                            android:backgroundTint="?attr/buttonMain"
+                            android:text="Athletics" />
+                        <Button
+                            android:id="@+id/CollegeBoardButton"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_weight="1"
+                            android:backgroundTint="?attr/buttonMain"
+                            android:text="CollegeBoard" />
+                        <Button
+                            android:id="@+id/TutorcomButton"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_weight="1"
+                            android:backgroundTint="?attr/buttonMain"
+                            android:text="tutor.com" />
+
+                        <Button
+                            android:id="@+id/StudentStoreButton"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_weight="1"
+                            android:backgroundTint="?attr/buttonMain"
+                            android:text="Student Store" />
+
+
+
+                    </LinearLayout>
+                </LinearLayout>
+            </ScrollView>
+
+        </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>
+

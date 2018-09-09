@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MapImageView">
+    <LinearLayout
+        android:id="@+id/MapLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.ghsapp.android.ghsapp.MapImageView"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        android:weightSum="9"
+        android:statusBarColor="?attr/backColor">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0sp"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/MapHeader"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="?attr/buttonMain"
+                android:text="Map"
+                android:gravity="center"/>
+            <ImageButton
+                android:id="@+id/BackButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:backgroundTint="@android:color/transparent"
+                android:tint="@android:color/white"
+                app:srcCompat="?android:attr/actionModeCloseDrawable"
+                android:onClick="onStartAction"/>
+        </RelativeLayout>
+        <com.github.barteksc.pdfviewer.PDFView
+            android:layout_weight="8"
+            android:layout_height="0sp"
+            android:layout_width="match_parent"
+            android:id="@+id/pdfView"
+            />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
