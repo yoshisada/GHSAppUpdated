@@ -29,10 +29,7 @@ public class Teacher extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         global=((Global)getApplicationContext());
-        if(global.getCounter() == 0) {setTheme(R.style.red);}
-        if(global.getCounter() == 1) {setTheme(R.style.black_oled);}
-        if(global.getCounter() == 2) {setTheme(R.style.space);}
-        if(global.getCounter() == 3) {setTheme(R.style.forest);}
+        setTheme(global.getThemes());
         setContentView(R.layout.activity_teacher);
         //back button
         back = findViewById(R.id.BackButton1);

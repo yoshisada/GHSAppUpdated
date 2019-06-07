@@ -122,7 +122,7 @@
                     android:layout_marginTop="0dp"
                     android:layout_height="wrap_content"
                     android:backgroundTint="?attr/buttonMain"
-                    android:text="Reporting an absence? \n \nPlease contact the school office at (626) 963-5731 \n extension 242. Click below for Policy."
+                    android:text="Reporting an absence? \n \nPlease contact the school office at (626) 963-5731 \n extension 1. Click below for Policy."
                     android:layout_weight="1"
                     android:layout_margin="5dp"
                     android:gravity="center"

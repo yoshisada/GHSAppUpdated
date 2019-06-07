@@ -74,7 +74,7 @@
         <item name="android:textSize">30sp</item>
         <item name="logo">@drawable/nasa</item>
         <item name="bar">@color/button2space</item>
-        <item name="padding">30dp</item>
+        <item name="padding">50dp</item>
         <item name="android:windowDisablePreview">true</item>
         <item name="popupColorMain">@color/black</item>
         <item name="popupOutline">@color/black</item>
@@ -102,6 +102,100 @@
         <item name="android:windowDisablePreview">true</item>
         <item name="android:windowAnimationStyle">@null</item>
     </style>
+
+    <style name="senior" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="backColor">@color/senLayout</item>
+        <item name="buttonColor1">@color/senStudent</item>
+        <item name="buttonColor2">@color/senTeacher</item>
+        <item name="buttonColor3">@color/senCounselor</item>
+        <item name="buttonColor4">@color/senContact</item>
+        <item name="buttonColor5">@color/senOther</item>
+        <item name="buttonMain">@color/senstuButtons</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:fontFamily">@font/futurabook</item>
+        <item name="colorPrimary">@color/MainLayout</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textSize">30sp</item>
+        <item name="logo">@drawable/senior1</item>
+        <item name="bar">@color/senLayout</item>
+        <item name="padding">30dp</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="popupColorMain">@color/senLayout</item>
+        <item name="popupOutline">@color/senLayout</item>
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+
+    <style name="junior" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="backColor">@color/jLayout</item>
+        <item name="buttonColor1">@color/jStudent</item>
+        <item name="buttonColor2">@color/jTeacher</item>
+        <item name="buttonColor3">@color/jCounselor</item>
+        <item name="buttonColor4">@color/jContact</item>
+        <item name="buttonColor5">@color/jOther</item>
+        <item name="buttonMain">@color/jButtons</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:fontFamily">@font/futurabook</item>
+        <item name="colorPrimary">@color/jLayout</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textSize">30sp</item>
+        <item name="logo">@drawable/junior</item>
+        <item name="bar">@color/jLayout</item>
+        <item name="padding">30dp</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="popupColorMain">@color/jLayout</item>
+        <item name="popupOutline">@color/jLayout</item>
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+
+    <style name="sophmore" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="backColor">@color/sLayout</item>
+        <item name="buttonColor1">@color/sStudent</item>
+        <item name="buttonColor2">@color/sTeacher</item>
+        <item name="buttonColor3">@color/sCounselor</item>
+        <item name="buttonColor4">@color/sContact</item>
+        <item name="buttonColor5">@color/sOther</item>
+        <item name="buttonMain">@color/sButtons</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:fontFamily">@font/futurabook</item>
+        <item name="colorPrimary">@color/sLayout</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textSize">30sp</item>
+        <item name="logo">@drawable/soph</item>
+        <item name="bar">@color/sLayout</item>
+        <item name="padding">30dp</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="popupColorMain">@color/sLayout</item>
+        <item name="popupOutline">@color/sLayout</item>
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+
+    <style name="freshman" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="backColor">@color/fLayout</item>
+        <item name="buttonColor1">@color/fStudent</item>
+        <item name="buttonColor2">@color/fTeacher</item>
+        <item name="buttonColor3">@color/fCounselor</item>
+        <item name="buttonColor4">@color/fContact</item>
+        <item name="buttonColor5">@color/fOther</item>
+        <item name="buttonMain">@color/fButtons</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:fontFamily">@font/futurabook</item>
+        <item name="colorPrimary">@color/fLayout</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textSize">30sp</item>
+        <item name="logo">@drawable/fresh</item>
+        <item name="bar">@color/fLayout</item>
+        <item name="padding">30dp</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="popupColorMain">@color/fLayout</item>
+        <item name="popupOutline">@color/fLayout</item>
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+
+
 
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 

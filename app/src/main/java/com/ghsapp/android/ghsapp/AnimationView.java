@@ -24,14 +24,8 @@ public class AnimationView extends AppCompatActivity
         super.onCreate(savedInstanceState);
         SharedPreferences sharedPref= getSharedPreferences("mypref", 0);
         global=((Global)getApplicationContext());
-        global.set(sharedPref.getInt("global",0));
-        if(global.getCounter() == 0) {setTheme(R.style.red);}
-        if(global.getCounter() == 1) {setTheme(R.style.black_oled);}
-        if(global.getCounter() == 2) {setTheme(R.style.space);}
-        if(global.getCounter() == 3) {setTheme(R.style.forest);}
+        setTheme(global.getThemes());
         setContentView(R.layout.activity_animation_view);
-
-
 
         animationView = findViewById(R.id.animation_view);
         animationView.setLayerType(View.LAYER_TYPE_HARDWARE, null);

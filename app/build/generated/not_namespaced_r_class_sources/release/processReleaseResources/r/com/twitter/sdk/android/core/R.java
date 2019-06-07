@@ -12,10 +12,10 @@ public final class R {
     public static final class color {
         private color() {}
 
-        public static final int tw__blue_default = 0x7f05007c;
-        public static final int tw__blue_pressed = 0x7f05007d;
-        public static final int tw__light_gray = 0x7f050087;
-        public static final int tw__solid_white = 0x7f05008a;
+        public static final int tw__blue_default = 0x7f05009a;
+        public static final int tw__blue_pressed = 0x7f05009b;
+        public static final int tw__light_gray = 0x7f0500a5;
+        public static final int tw__solid_white = 0x7f0500a8;
     }
     public static final class dimen {
         private dimen() {}
@@ -30,11 +30,11 @@ public final class R {
     public static final class drawable {
         private drawable() {}
 
-        public static final int tw__ic_logo_default = 0x7f0700d2;
-        public static final int tw__login_btn = 0x7f0700e6;
-        public static final int tw__login_btn_default = 0x7f0700e7;
-        public static final int tw__login_btn_disabled = 0x7f0700e8;
-        public static final int tw__login_btn_pressed = 0x7f0700e9;
+        public static final int tw__ic_logo_default = 0x7f0700d8;
+        public static final int tw__login_btn = 0x7f0700ec;
+        public static final int tw__login_btn_default = 0x7f0700ed;
+        public static final int tw__login_btn_disabled = 0x7f0700ee;
+        public static final int tw__login_btn_pressed = 0x7f0700ef;
     }
     public static final class id {
         private id() {}
@@ -50,6 +50,6 @@ public final class R {
     public static final class string {
         private string() {}
 
-        public static final int tw__login_btn_txt = 0x7f0e0034;
+        public static final int tw__login_btn_txt = 0x7f0e003e;
     }
 }

@@ -1,0 +1,4 @@
+#Sun Feb 24 20:38:44 PST 2019
+base.0=C\:\\Users\\kavis_pz3n9bn\\AndroidStudioProjects\\GHSAppUpdated2\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\6
+path.0=classes.dex
+renamed.0=classes.dex

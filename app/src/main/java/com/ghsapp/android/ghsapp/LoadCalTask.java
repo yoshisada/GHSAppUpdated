@@ -29,15 +29,16 @@ import java.util.Date;
 import javax.net.ssl.HttpsURLConnection;
 
 
+//begins asyncTask
 public class LoadCalTask extends AsyncTask<String, Void, CalEventResponse> {
-    public LoadCalTask(Listener listener) {
+    public LoadCalTask(Listener listener) { //async task function called LoadCalTask
 
         mListener = listener;
     }
 
     public interface Listener {
 
-        void onLoaded(List<CalEvent> eventList);
+        void onLoaded(List<CalEvent> eventList); //array list of CalEvents
 
         void onError();
     }

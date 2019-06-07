@@ -37,80 +37,29 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        global = ((Global) getApplicationContext());
-        if (global.getCounter() == 0) {
-            /*
-            LinearLayout currentLayout = (LinearLayout) findViewById(R.id.currentLayout);
-            currentLayout.setBackgroundColor(this.getResources().getColor(R.color.MainLayout));
-            ghs.setImageResource(R.drawable.whitesmall2);
-            student = findViewById(R.id.StudentsButton);
-            student.setBackgroundTintList(ColorStateList.valueOf(getColor(R.color.MainStudent)));
-            teacher = findViewById(R.id.TeacherButton);
-            teacher.setBackgroundTintList(ColorStateList.valueOf(getColor(R.color.MainTeacher)));
-            counselor = findViewById(R.id.CounselorButton);
-            counselor.setBackgroundTintList(ColorStateList.valueOf(getColor(R.color.MainCounselor)));
-            contact = findViewById(R.id.ContactButton);
-            contact.setBackgroundTintList(ColorStateList.valueOf(getColor(R.color.MainContact)));
-            other = findViewById(R.id.OtherButton);
-            other.setBackgroundTintList(ColorStateList.valueOf(getColor(R.color.MainOther)));
-            Window window = this.getWindow();
-            window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
-
-            window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
-            window.setStatusBarColor(this.getResources().getColor(R.color.MainLayout));
-            */
-            setTheme(R.style.red);
-        }
-        if (global.getCounter() == 1) {/*
-            LinearLayout currentLayout = (LinearLayout) findViewById(R.id.currentLayout);
-            currentLayout.setBackgroundColor(this.getResources().getColor(R.color.OLED));
-            ghs.setImageResource(R.drawable.darktheme);
-            student = findViewById(R.id.StudentsButton);
-            student.setBackgroundTintList(ColorStateList.valueOf(getColor(R.color.OLED)));
-            student.setBackgroundResource(R.drawable.background);
-            teacher = findViewById(R.id.TeacherButton);
-            teacher.setBackgroundTintList(ColorStateList.valueOf(getColor(R.color.OLED)));
-            counselor = findViewById(R.id.CounselorButton);
-            counselor.setBackgroundTintList(ColorStateList.valueOf(getColor(R.color.OLED)));
-            contact = findViewById(R.id.ContactButton);
-            contact.setBackgroundTintList(ColorStateList.valueOf(getColor(R.color.OLED)));
-            other = findViewById(R.id.OtherButton);
-            other.setBackgroundTintList(ColorStateList.valueOf(getColor(R.color.OLED)));
-            Window window = this.getWindow();
-            window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
-
-            window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
-            window.setStatusBarColor(this.getResources().getColor(R.color.OLED));
-            */
-            setTheme(R.style.black_oled);
-        }
-        if (global.getCounter() == 2) {
-            setTheme(R.style.space);
-        }
-        if (global.getCounter() == 3) {
-            setTheme(R.style.forest);
-        }
+        global=((Global)getApplicationContext());
+        setTheme(global.getThemes());
         setContentView(R.layout.activity_main);
-        alertDialog = new AlertDialog.Builder(MainActivity.this)
-
-                //set message
-                .setMessage("Hey don't shake me!! code: 6985 || I am pretty stressed about this new year, I really need to reevaluate my work load.")
-                //set positive button
-                .setPositiveButton("Exit", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialogInterface, int i) {
-                        //set what would happen when positive button is clicked
-                        dialogInterface.dismiss();
-                    }
-                });
-
-        ShakeDetector.create(this, new ShakeDetector.OnShakeListener() {
-            @Override
-            public void OnShake() {
-
-                alertDialog.show();
-            }
-        });
+//        alertDialog = new AlertDialog.Builder(MainActivity.this)
+//
+//                //set message
+//                .setMessage("Hey don't shake me!! code: 6985 || I am pretty stressed about this new year, I really need to reevaluate my work load.")
+//                //set positive button
+//                .setPositiveButton("Exit", new DialogInterface.OnClickListener() {
+//                    @Override
+//                    public void onClick(DialogInterface dialogInterface, int i) {
+//                        //set what would happen when positive button is clicked
+//                        dialogInterface.dismiss();
+//                    }
+//                });
+//
+//        ShakeDetector.create(this, new ShakeDetector.OnShakeListener() {
+//            @Override
+//            public void OnShake() {
+//
+//                alertDialog.show();
+//            }
+//        });
         AppCompatDelegate.setCompatVectorFromResourcesEnabled(true);
         ghs = findViewById(R.id.ghs);
         ghs = findViewById(R.id.ghs);

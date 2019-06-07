@@ -1,10 +1,27 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\Android Apps\\GHS for apk\\GHSAppUpdated\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-nb\\values-nb.xml",
+            "outputFile": "E:\\Android Apps\\ghsapp action update 2-25\\GHSAppUpdated2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-nb\\values-nb.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\yoshisada\\.gradle\\caches\\transforms-1\\files-1.1\\twitter-core-3.1.1.aar\\af80ded60feaba0d4925e63157156fe3\\res\\values-nb\\values-nb.xml",
+                    "source": "C:\\Users\\yoshisada\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-11.8.0.aar\\f696966f6fa04d5543850a2fd903373b\\res\\values-nb\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "283",
+                        "endColumns": "188",
+                        "endOffsets": "471"
+                    },
+                    "to": {
+                        "startLines": "33",
+                        "startColumns": "4",
+                        "startOffsets": "2401",
+                        "endColumns": "188",
+                        "endOffsets": "2585"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\yoshisada\\.gradle\\caches\\transforms-1\\files-1.1\\twitter-core-3.2.0.aar\\8ff02bb8639adbe4fd6eea4c89bcaad8\\res\\values-nb\\values-nb.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -13,15 +30,32 @@
                         "endOffsets": "117"
                     },
                     "to": {
-                        "startLines": "39",
+                        "startLines": "41",
                         "startColumns": "4",
-                        "startOffsets": "2762",
+                        "startOffsets": "3107",
                         "endColumns": "66",
-                        "endOffsets": "2824"
+                        "endOffsets": "3169"
                     }
                 },
                 {
-                    "source": "C:\\Users\\yoshisada\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\8fed874dd25b2218499db9408e82b5c8\\res\\values-nb\\values-nb.xml",
+                    "source": "C:\\Users\\yoshisada\\.gradle\\caches\\transforms-1\\files-1.1\\firebase-messaging-11.8.0.aar\\9d7d3ef7a518ec07f6b70df9b5742b25\\res\\values-nb\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "241",
+                        "endColumns": "101",
+                        "endOffsets": "342"
+                    },
+                    "to": {
+                        "startLines": "34",
+                        "startColumns": "4",
+                        "startOffsets": "2590",
+                        "endColumns": "105",
+                        "endOffsets": "2691"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\yoshisada\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\e5d7ac0cc65fd540d401021522dd45bd\\res\\values-nb\\values-nb.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -30,15 +64,15 @@
                         "endOffsets": "158,267,392,487,601,687,787,900,976,1052,1132,1235,1334,1430,1534,1632,1733,1849,1946,2025,2126"
                     },
                     "to": {
-                        "startLines": "14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34",
+                        "startLines": "14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,35,36",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "455,563,672,797,892,1006,1092,1192,1305,1381,1457,1537,1640,1739,1835,1939,2037,2138,2254,2351,2430",
+                        "startOffsets": "505,613,722,847,942,1056,1142,1242,1355,1431,1507,1587,1690,1789,1885,1989,2087,2188,2304,2696,2775",
                         "endColumns": "107,108,124,94,113,85,99,112,75,75,79,102,98,95,103,97,100,115,96,78,100",
-                        "endOffsets": "558,667,792,887,1001,1087,1187,1300,1376,1452,1532,1635,1734,1830,1934,2032,2133,2249,2346,2425,2526"
+                        "endOffsets": "608,717,842,937,1051,1137,1237,1350,1426,1502,1582,1685,1784,1880,1984,2082,2183,2299,2396,2770,2871"
                     }
                 },
                 {
-                    "source": "C:\\Users\\yoshisada\\.gradle\\caches\\transforms-1\\files-1.1\\tweet-ui-3.1.1.aar\\cba7f4de78963d80dff7111c2d5256b7\\res\\values-nb\\values-nb.xml",
+                    "source": "C:\\Users\\yoshisada\\.gradle\\caches\\transforms-1\\files-1.1\\tweet-ui-3.2.0.aar\\aeba3549e8b0610d3633f881f7b06a24\\res\\values-nb\\values-nb.xml",
                     "from": {
                         "startLines": "2,6,10,14,15,16,17,18,19,20,21,22,23,24,25,26,27",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -48,16 +82,16 @@
                         "endOffsets": "184,317,450,503,559,624,668,711,775,841,894,964,1076,1153,1209,1285,1342"
                     },
                     "to": {
-                        "startLines": "2,6,10,36,37,38,41,42,44,45,46,47,48,49,50,51,52",
+                        "startLines": "2,6,10,38,39,40,43,44,46,47,48,49,50,51,52,53,54",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,189,322,2588,2641,2697,2881,2925,3017,3081,3147,3200,3270,3382,3459,3515,3591",
-                        "endLines": "5,9,13,36,37,38,41,42,44,45,46,47,48,49,50,51,52",
+                        "startOffsets": "105,239,372,2933,2986,3042,3226,3270,3362,3426,3492,3545,3615,3727,3804,3860,3936",
+                        "endLines": "5,9,13,38,39,40,43,44,46,47,48,49,50,51,52,53,54",
                         "endColumns": "14,14,14,52,55,64,43,42,63,65,52,69,111,76,55,75,56",
-                        "endOffsets": "184,317,450,2636,2692,2757,2920,2963,3076,3142,3195,3265,3377,3454,3510,3586,3643"
+                        "endOffsets": "234,367,500,2981,3037,3102,3265,3308,3421,3487,3540,3610,3722,3799,3855,3931,3988"
                     }
                 },
                 {
-                    "source": "C:\\Users\\yoshisada\\.gradle\\caches\\transforms-1\\files-1.1\\tweet-composer-3.1.1.aar\\83fc2383f02a5783cf40b6dca359a478\\res\\values-nb\\values-nb.xml",
+                    "source": "C:\\Users\\yoshisada\\.gradle\\caches\\transforms-1\\files-1.1\\tweet-composer-3.1.1.aar\\8d383f4d89872e8e46a7cee5c653e33a\\res\\values-nb\\values-nb.xml",
                     "from": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",
@@ -66,11 +100,11 @@
                         "endOffsets": "107,159,208"
                     },
                     "to": {
-                        "startLines": "35,40,43",
+                        "startLines": "37,42,45",
                         "startColumns": "4,4,4",
-                        "startOffsets": "2531,2829,2968",
+                        "startOffsets": "2876,3174,3313",
                         "endColumns": "56,51,48",
-                        "endOffsets": "2583,2876,3012"
+                        "endOffsets": "2928,3221,3357"
                     }
                 }
             ]

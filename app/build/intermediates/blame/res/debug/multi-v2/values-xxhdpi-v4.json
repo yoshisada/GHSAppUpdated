@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\Android Apps\\GHS for apk\\GHSAppUpdated\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xxhdpi-v4\\values-xxhdpi-v4.xml",
+            "outputFile": "E:\\Android Apps\\ghsapp action update 2-25\\GHSAppUpdated2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xxhdpi-v4\\values-xxhdpi-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\yoshisada\\.gradle\\caches\\transforms-1\\files-1.1\\twitter-core-3.1.1.aar\\af80ded60feaba0d4925e63157156fe3\\res\\values-xxhdpi-v4\\values-xxhdpi-v4.xml",
+                    "source": "C:\\Users\\yoshisada\\.gradle\\caches\\transforms-1\\files-1.1\\twitter-core-3.2.0.aar\\8ff02bb8639adbe4fd6eea4c89bcaad8\\res\\values-xxhdpi-v4\\values-xxhdpi-v4.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

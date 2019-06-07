@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "588713263121",
+    "firebase_url": "https://ghs-app.firebaseio.com",
+    "project_id": "ghs-app",
+    "storage_bucket": "ghs-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:588713263121:android:64a36ff0531a769f",
+        "android_client_info": {
+          "package_name": "com.ghsapp.android.ghsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "588713263121-v24mhafisje4075m7hn9kltu2obmg3kf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCb29isPpLEOX_4JND7rKJw2u_-rOvSJNc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "588713263121-v24mhafisje4075m7hn9kltu2obmg3kf.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "588713263121-akbtamrpklv6k8p1npacuvth0frhbrhd.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ghsapps.GHSApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

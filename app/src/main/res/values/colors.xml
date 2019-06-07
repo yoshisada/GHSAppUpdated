@@ -29,4 +29,36 @@
     <color name="button4forest">#CC000000</color>
     <color name="button5forest">#E6000000</color>
     <color name="white">#fff</color>
+    <color name="senLayout">#e30022</color>
+    <color name="senStudent">#c1001b</color>
+    <color name="senTeacher">#b60019</color>
+    <color name="senCounselor">#9f0015</color>
+    <color name="senContact">#890011</color>
+    <color name="senOther">#72000c</color>
+    <color name="senstulayout">#e20027</color>
+    <color name="senstuButtons">#c00021</color>
+
+    <color name="jLayout">#f0ac01</color>
+    <color name="jStudent">#cc9201</color>
+    <color name="jTeacher">#c08901</color>
+    <color name="jCounselor">#a87801</color>
+    <color name="jContact">#906701</color>
+    <color name="jOther">#785501</color>
+    <color name="jButtons">#cc9201</color>
+
+    <color name="sLayout">#0065d7</color>
+    <color name="sStudent">#0056b8</color>
+    <color name="sTeacher">#0051ad</color>
+    <color name="sCounselor">#004697</color>
+    <color name="sContact">#003d82</color>
+    <color name="sOther">#00336c</color>
+    <color name="sButtons">#0056b8</color>
+
+    <color name="fLayout">#41cf06</color>
+    <color name="fStudent">#38b105</color>
+    <color name="fTeacher">#35a605</color>
+    <color name="fCounselor">#2e9104</color>
+    <color name="fContact">#287c04</color>
+    <color name="fOther">#216703</color>
+    <color name="fButtons">#38b105</color>
 </resources>

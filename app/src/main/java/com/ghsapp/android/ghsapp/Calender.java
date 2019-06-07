@@ -52,19 +52,8 @@ public class Calender extends ListActivity implements LoadCalTask.Listener{
     Dialog myDialog;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        global = ((Global) getApplicationContext());
-        if (global.getCounter() == 0) {
-            setTheme(R.style.red);
-        }
-        if (global.getCounter() == 1) {
-            setTheme(R.style.black_oled);
-        }
-        if (global.getCounter() == 2) {
-            setTheme(R.style.space);
-        }
-        if (global.getCounter() == 3) {
-            setTheme(R.style.forest);
-        }
+        global=((Global)getApplicationContext());
+        setTheme(global.getThemes());
         setContentView(R.layout.activity_counselor);
         listView = getListView();//(ListView) findViewById(R.id.list);
         back = findViewById(R.id.BackButton1);

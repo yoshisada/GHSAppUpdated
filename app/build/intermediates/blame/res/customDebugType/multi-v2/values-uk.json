@@ -1,0 +1,113 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\Android Apps\\ghsapp action update 2-25\\GHSAppUpdated2\\app\\build\\intermediates\\incremental\\mergeCustomDebugTypeResources\\merged.dir\\values-uk\\values-uk.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\yoshisada\\.gradle\\caches\\transforms-1\\files-1.1\\twitter-core-3.2.0.aar\\8ff02bb8639adbe4fd6eea4c89bcaad8\\res\\values-uk\\values-uk.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "82",
+                        "endOffsets": "133"
+                    },
+                    "to": {
+                        "startLines": "41",
+                        "startColumns": "4",
+                        "startOffsets": "3211",
+                        "endColumns": "82",
+                        "endOffsets": "3289"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\yoshisada\\.gradle\\caches\\transforms-1\\files-1.1\\tweet-ui-3.2.0.aar\\aeba3549e8b0610d3633f881f7b06a24\\res\\values-uk\\values-uk.xml",
+                    "from": {
+                        "startLines": "2,6,10,14,15,16,17,18,19,20,21,22,23,24,25",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,193,328,461,519,584,649,699,747,796,882,1003,1079,1141,1217",
+                        "endLines": "5,9,13,14,15,16,17,18,19,20,21,22,23,24,25",
+                        "endColumns": "14,14,14,57,64,64,49,47,48,85,120,75,61,75,61",
+                        "endOffsets": "188,323,456,514,579,644,694,742,791,877,998,1074,1136,1212,1274"
+                    },
+                    "to": {
+                        "startLines": "2,6,10,38,39,40,43,44,46,47,48,49,50,51,52",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,243,378,3023,3081,3146,3346,3396,3496,3545,3631,3752,3828,3890,3966",
+                        "endLines": "5,9,13,38,39,40,43,44,46,47,48,49,50,51,52",
+                        "endColumns": "14,14,14,57,64,64,49,47,48,85,120,75,61,75,61",
+                        "endOffsets": "238,373,506,3076,3141,3206,3391,3439,3540,3626,3747,3823,3885,3961,4023"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\yoshisada\\.gradle\\caches\\transforms-1\\files-1.1\\firebase-messaging-11.8.0.aar\\9d7d3ef7a518ec07f6b70df9b5742b25\\res\\values-uk\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "241",
+                        "endColumns": "98",
+                        "endOffsets": "339"
+                    },
+                    "to": {
+                        "startLines": "34",
+                        "startColumns": "4",
+                        "startOffsets": "2675",
+                        "endColumns": "102",
+                        "endOffsets": "2773"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\yoshisada\\.gradle\\caches\\transforms-1\\files-1.1\\tweet-composer-3.1.1.aar\\8d383f4d89872e8e46a7cee5c653e33a\\res\\values-uk\\values-uk.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,118,170",
+                        "endColumns": "62,51,51",
+                        "endOffsets": "113,165,217"
+                    },
+                    "to": {
+                        "startLines": "37,42,45",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "2960,3294,3444",
+                        "endColumns": "62,51,51",
+                        "endOffsets": "3018,3341,3491"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\yoshisada\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\e5d7ac0cc65fd540d401021522dd45bd\\res\\values-uk\\values-uk.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,165,273,396,498,604,690,798,916,995,1075,1156,1262,1369,1467,1575,1681,1790,1914,2014,2095",
+                        "endColumns": "109,107,122,101,105,85,107,117,78,79,80,105,106,97,107,105,108,123,99,80,100",
+                        "endOffsets": "160,268,391,493,599,685,793,911,990,1070,1151,1257,1364,1462,1570,1676,1785,1909,2009,2090,2191"
+                    },
+                    "to": {
+                        "startLines": "14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,35,36",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "511,621,729,852,954,1060,1146,1254,1372,1451,1531,1612,1718,1825,1923,2031,2137,2246,2370,2778,2859",
+                        "endColumns": "109,107,122,101,105,85,107,117,78,79,80,105,106,97,107,105,108,123,99,80,100",
+                        "endOffsets": "616,724,847,949,1055,1141,1249,1367,1446,1526,1607,1713,1820,1918,2026,2132,2241,2365,2465,2854,2955"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\yoshisada\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-11.8.0.aar\\f696966f6fa04d5543850a2fd903373b\\res\\values-uk\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "283",
+                        "endColumns": "204",
+                        "endOffsets": "487"
+                    },
+                    "to": {
+                        "startLines": "33",
+                        "startColumns": "4",
+                        "startOffsets": "2470",
+                        "endColumns": "204",
+                        "endOffsets": "2670"
+                    }
+                }
+            ]
+        }
+    ]
+}
